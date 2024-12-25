@@ -18,7 +18,6 @@ async function Shop() {
 
   async function addProduct(e: FormData) {
     "use server";
-    console.log("Test ::: >>> ", e);
     const title = e.get("title");
     const price = e.get("price");
 
